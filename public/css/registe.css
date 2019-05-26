@@ -1,0 +1,243 @@
+a{
+	font-size: 12px;
+}
+/***header头部***/
+#header{
+	background: #FFFFFF;
+	box-shadow: 0 2px 2px 2px #E1E1E1;
+	margin-bottom: 2px;
+}
+.header{
+	padding: 20px 0 5px 38px;
+}
+.header .logo{
+	display: block;
+	width: 167px;
+	height: 78px;
+	text-indent: -999em;
+	background: url(../img/logo.png) no-repeat;
+}
+.header .welcome p span{
+	font-size: 12px;
+	color: #999999;
+	margin-right: 5px;
+}
+.header .welcome p a{
+	color: #0066CC;
+}
+/***header头部***/
+
+/***registe注册***/
+#registe{
+	background: #F8F8F8;
+	padding: 40px 0 20px 0;
+}
+.registe{
+	background: #FFFFFF;
+}
+.dataFrom{
+	padding: 30px 0 30px 250px;
+}
+.dataFrom .fromitem{
+	margin-bottom: 15px;
+}
+.dataFrom label{
+	display: inline-block;
+	width: 228px;
+	padding-right: 12px;
+	text-align: right;
+	font-size: 12px;
+	color: #666666;
+}
+.dataFrom input{
+	display: inline-block;
+	width: 300px;
+	height: 45px;
+	border: 1px solid #CCCCCC;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.dataFrom div:nth-child(1){
+	position: relative;
+}
+/*手机区域选择框*/
+.dataFrom .area{
+	display: inline-block;
+	width: 145px;
+	height: 45px;
+	line-height: 36px;
+	border: 1px solid #CCCCCC;
+	border-right: 0px;
+	font-size: 14px; 
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.dataFrom .area:hover{
+	cursor: pointer;
+}
+.dataFrom .areaValue{
+	font-size: 12px;
+	color: #333333;
+	margin-right: 20px;
+	text-align: center;
+}
+.dataFrom #phone{
+	vertical-align: top;
+}
+/*手机区域选择框*/
+
+/*手机号*/
+.dataFrom #phone{
+	width: 154px;
+}
+/*电话区域选择列表*/
+.dataFrom div:nth-child(1) .areaList{
+	display: none;
+	position: absolute;
+	top: 44px;
+	left: 240px;
+	border: 1px solid #CBCBCB;
+	z-index: 2;
+}
+.dataFrom div:nth-child(1) .areaList li{
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+}
+.dataFrom div:nth-child(1) .areaList li:hover{
+	background: #EEEEEE;
+}
+.dataFrom div:nth-child(1) .areaList li span{
+	display: inline-block;
+	width: 144px;
+	font-size: 12px;
+	color: #333333;
+}
+/*电话区域选择列表*/
+/*密码规则*/
+.dataFrom div:nth-child(2){
+	position: relative;
+}
+.dataFrom div:nth-child(2) .rule{
+	display: none;
+	width: 300px;
+	height: 94px;
+	box-sizing: border-box;
+	border: 1px solid #F3F3F3;
+	padding: 10px 0 0 18px;
+	position: absolute;
+	top: 0;
+	right: 100px;
+}
+/*左侧三角形*/
+.dataFrom div:nth-child(2) .trianglebd{
+	width: 0;
+	height: 0;
+	border: 6px solid;
+	border-color: #fff0;
+	border-right-color: #EDEDED;
+	position: absolute;
+	top: 12px;
+	right: 298px;
+}
+.dataFrom div:nth-child(2) .triangle{
+	width: 0;
+	height: 0;
+	border: 6px solid;
+	border-color: #fff0;
+	border-right-color: #FFFFFF;
+	position: absolute;
+	top: 12px;
+	right: 297px;
+}
+.dataFrom div:nth-child(2) .rule p{
+	font-size: 12px;
+	color: #777F84;
+	line-height: 20px;
+}
+/*验证码*/
+.dataFrom #code{
+	width: 100px;
+	margin-right: 10px;
+}
+.dataFrom .showCode{
+	display: inline-block;
+	width: 100px;
+	height: 38px;
+	line-height: 36px;
+	text-align: center;
+	background: #FF3D9E;
+	color: #ffffff;
+	cursor: pointer;
+}
+.dataFrom #agree{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.dataFrom p{
+	display: inline-block;
+	font-size: 12px;
+	color: #333333;
+}
+.dataFrom a{
+	color: #2192D9;
+}
+/*注册按键*/
+.dataFrom .registe_btn{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	border: 1px solid #FF1268;
+	border-radius: 5px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #cc0e53;
+	background-image: linear-gradient(90deg,#ff4aae,#ff1268);
+	color: #ffffff;
+}
+/*错误信息样式*/
+.dataFrom .error{
+	display: none;
+	font-size: 14px;
+	color: #dd2727;
+	margin-left: 240px;
+}
+/***registe注册***/
+
+/***footer尾部***/
+#footer{
+	background: #FCFCFC;
+}
+.footer{
+	padding: 16px 0 20px 0;
+	text-align: center;
+}
+.footer .link{
+	font-size: 12px;
+	line-height: 42px;
+}
+.footer .link a{
+	color: #666666;
+	margin: 0 10px;
+}
+.footer .link a:hover{
+	color: #FF1369;
+}
+.footer p span{
+	font-size: 12px;
+	color: #333333;
+	line-height: 28px;
+}
+.footer p:nth-child(2) span{
+	background: url(../img/footer_bd.png) no-repeat left center;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+.footer p:nth-child(2) span:nth-child(1){
+	background: none;
+}
+/***footer尾部**/

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/confirm.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../icon/iconfont.css">
+</head>
+<body>
+	<!-- topBar顶部栏 -->
+	<div id="topBar">
+		<div class="topBar con clearfix">
+			<!-- 商标首页分类 -->
+			<div class="top_left fl">
+				<a href="../index.html" class="logo">
+					<img src="../img/logo.png">
+				</a>
+				<div class="recommend fl">
+					<a href="../index.html">首页</a>
+					<a href="classify.html">分类</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主体内容 -->
+	<div id="main">
+		<div class="main con">
+			<!-- 购票人信息 -->
+			<div class="personalMsg">
+				<div class="hd">
+					<h2>购票人信息(必填)</h2>
+				</div>
+				<!-- 取票方式 -->
+				<div class="ticketGet clearfix">
+					<!-- 二维码电子票 -->
+					<div class="g_qr">
+						<h3 class="qr_bg"></h3>
+						<span>二维码电子票</span>
+					</div>
+					<!-- 快递配送 -->
+					<div class="g_deliver">
+						<h3 class="deliver_bg"></h3>
+						<span>快递配送</span>
+					</div>
+					<!-- Oui自取 -->
+					<div class="g_self">
+						<h3 class="self_bg"></h3>
+						<span>Oui自取</span>
+					</div>
+				</div>
+				<!-- 取票方式的信息填写 -->
+				<div class="ticketMsg">
+					<!-- 二维码电子票 -->
+					<div class="m_qr show">
+						<h3>二维码电子票</h3>
+						<div class="qr_from">
+							<div class="ipt">
+								<label>用户姓名：</label><input type="text" name="qr_name" id="qr_name" maxlength="5">
+							</div>
+							<div class="qr_name_error error"></div>
+							<div class="ipt">
+								<label>手机号码：</label><input type="text" name="qr_phone" id="qr_phone" maxlength="13">
+							</div>
+							<div class="qr_phone_error error"></div>
+							<div class="qr_tip">温馨提示：下单完成后请下载OuiAPP进入票夹查看电子票及使用说明</div>
+						</div>
+					</div>
+					<!-- 快递配送 -->
+					<div class="m_deliver">
+						<h3>收货人信息</h3>
+						<!-- 没有添加地址时出现 -->
+						<p class="noAddress">请在收货地址管理添加地址</p>
+						<ul class="addressList"></ul>
+					</div>
+					<!-- Oui自取 -->
+					<div class="m_self">
+						<h3>取货信息</h3>
+						<div class="company">
+							<div class="ipt">
+								<label>取票公司：</label><span>Oui公司</span>
+							</div>
+							<div class="ipt">
+								<label>取票地址：</label><span>北京市丰台区Oui街666号楼3层</span>
+							</div>
+							<div class="ipt">
+								<label>营业时间：</label><span>星期一至星期日9:00-18:00</span>
+							</div>
+						</div>
+						<div class="self_from">
+							<h4>个人信息</h4>
+							<div class="ipt">
+								<label>用户姓名：</label><input type="text" name="self_name" id="self_name" maxlength="5">
+							</div>
+							<div class="self_name_error error"></div>
+							<div class="ipt">
+								<label>手机号码：</label><input type="text" name="self_phone" id="self_phone" maxlength="13">
+							</div>
+							<div class="self_phone_error error"></div>
+							<div class="s_tip">温馨提示：请持订票人身份证原件上门自取，代领需出示订票人及代领人身份证原件</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 商品清单 -->
+			<div class="ticketList">
+				<div class="hd">
+					<h2>商品清单</h2>
+				</div>
+				<!-- 订单信息表格 -->
+				<div class="tableBox"></div>
+			</div>
+			<!-- 提交订单 -->
+			<div class="subimtBox clearfix">
+				<div class="content fr">
+					<h2>待支付总额:<span class="finalPrice"></span></h2>
+					<input type="checkbox" id="agree"><span>我已同意阅读</span><span>《Oui订票服务条款》</span>
+					<p>同意"票品为不记名凭证，请妥善保管，遗失不补"</p>
+					<a href="javascript:;" class="submitBtn">同意以上协议并提交订单</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer尾部 -->
+	<div id="footer">
+		<div class="footer con">
+			<div class="foot_link">
+				<a href="#">帮助中心</a>|
+				<a href="#">公司介绍</a>|
+				<a href="#">品牌识别</a>|
+				<a href="#">隐私权专项政策</a>|
+				<a href="#">廉政举报</a>|
+				<a href="#">联系及合作</a>|
+				<a href="#">招聘信息</a>|
+				<a href="#">防骗秘籍</a>
+			</div>
+			<div class="foot_msg clearfix">
+				<div class="left fl clearfix">
+					<a href="../index.html" target="blank">
+						<img src="../img/logo.png">
+					</a>
+					<div class="qr fl">
+						<img src="../img/qr.jpg">
+						<span>APP下载</span>
+					</div>
+				</div>
+				<div class="right fl">
+					<p><span>京ICP备2141551号</span>|<span>京B2-20181001</span>|<span>营业执照</span></p>
+					<p><span>广播电视节目制作经营许可证 (京)字第23333号</span>|<span>网络文化经营许可证 京网文[2018]3333-999号</span>|<span>营业性演出许可证 京市演666号</span></p>
+					<p><span>CopyRight© Oui票务2018，All Right Reserved</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../lib/jquery-3.2.1.js"></script>
+	<script src="../js/confirm.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/backTop.js"></script>
+</body>
+</html>

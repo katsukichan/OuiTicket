@@ -1,0 +1,303 @@
+a{
+	font-size: 12px;
+}
+/***topBar顶部栏***/
+#topBar{
+	background: #FFFFFF;
+}
+.topBar{
+	font-size: 16px;
+}
+/*顶部栏左侧*/
+.topBar .top_left .logo{
+	float: left;
+	margin-right: 55px;
+}
+.topBar .top_left .recommend a{
+	display: inline-block;
+	font-size: 16px;
+	width: 32px;
+	line-height: 78px;
+	color: #000000;
+	margin: 0 9px;
+}
+.topBar .top_left .recommend a:hover{
+	color: #FF1268;
+}
+/***topBar顶部栏***/
+
+/***main主体内容***/
+#main{
+	background: #FFFFFF;
+}
+#main .main{
+	padding: 20px 0;
+}
+/*购票人信息*/
+.main .hd{
+	position: relative;
+	border-bottom: 2px solid #D7D7D7;
+}
+.main .hd:after{
+	content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 154px;
+    border-bottom: 2px solid #ed0a75;
+}
+.main .hd h2{
+	color: #ed0a75;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.personalMsg{
+	margin-bottom: 10px;
+}
+.personalMsg .ticketGet{
+    padding: 10px 0 10px 230px;
+}
+.personalMsg .ticketGet div{
+	float: left;
+	margin-right: 200px;
+	cursor: pointer;
+}
+.personalMsg .ticketGet h3{
+	width: 78px;
+	height: 78px;
+	margin-left: 10px;
+	background-image: url(../img/getWays.png);
+}
+/*购票方式背景图*/
+.personalMsg .ticketGet .qr_bg{
+	background-position: -78px 0;
+}
+.personalMsg .ticketGet .deliver_bg{
+	background-position: 0 -78px;
+}
+.personalMsg .ticketGet .self_bg{
+	background-position: 0 -156px;
+}
+.personalMsg .ticketGet div span{
+	display: block;
+	width: 96px;
+	margin-top: 8px;
+	font-size: 11px;
+	text-align: center;
+	color: #ED0A75;
+}
+/*取票方式信息*/
+.personalMsg .ticketMsg{
+	padding: 10px 50px;
+	border: 1px solid #E6E6E6;
+}
+/*对应信息框出现隐藏*/
+.personalMsg .m_qr{
+	display: none;
+}
+.personalMsg .m_deliver{
+	display: none;
+}
+.personalMsg .m_self{
+	display: none;
+}
+.personalMsg .ticketMsg .show{
+	display: block;
+}
+.personalMsg .ticketMsg h3{
+	padding: 8px 20px;
+	font-size: 16px;
+    color: #666666;
+}
+.personalMsg .ticketMsg .error{
+	font-size: 12px;
+	color: #dd2727;
+	padding-left: 135px;
+	margin-bottom: 5px; 
+}
+.personalMsg .ticketMsg .ipt{
+	padding-left: 72px;
+	margin-bottom: 5px;
+}
+.personalMsg .ticketMsg .ipt label{
+    width: 86px;
+    text-align: right;
+    font-size: 12px;
+    color: #333333;
+}
+.personalMsg .ticketMsg .ipt input{
+    padding: 2px 5px;
+    border: 1px solid #BBBBBB;
+    height: 23px;
+    line-height: 23px;
+}
+.personalMsg .ticketMsg .m_qr .qr_tip{
+	padding-left: 72px;
+	font-size: 12px;
+	color: #ED0A75;
+}
+.personalMsg .ticketMsg .m_deliver .noAddress{
+	/*没有获取到个人信息地址时显示*/
+	display: none;
+	padding-left: 50px;
+	font-size: 12px;
+	color: #ED0A75;
+}
+.personalMsg .ticketMsg .m_deliver ul{
+	padding: 10px 50px;
+}
+.personalMsg .ticketMsg .m_deliver ul li{
+	margin-bottom: 5px;
+}
+.personalMsg .ticketMsg .m_deliver ul li span{
+	font-size: 12px;
+    color: #666666;
+    margin-right: 10px;
+}
+.personalMsg .ticketMsg .m_self h4{
+	padding: 10px 0 10px 72px;
+    font-size: 14px;
+    color: #666666;
+}
+.personalMsg .ticketMsg .m_self .company span{
+    font-size: 12px;
+    color: #666666;
+}
+.personalMsg .ticketMsg .m_self .s_tip{
+	padding-left: 72px;
+	font-size: 12px;
+	color: #ED0A75;
+}
+/*商品清单部分*/
+.ticketList .tableBox{
+	margin-bottom: 20px;
+}
+.ticketList .tableBox table{
+	font-size: 12px;
+	color: #666666;
+	background: #F4F9FE;
+}
+/*表中各列样式*/
+.ticketList .tableBox .c1{
+	text-align: left;
+    padding: 0 20px;
+    height: auto;
+    text-overflow: ellipsis;
+}
+.ticketList .tableBox .c1 p{
+	line-height: 20px;
+}
+.ticketList .tableBox .c2{
+	width: 190px;
+	text-align: center;
+}
+.ticketList .tableBox .c3{
+	width: 180px;
+	text-align: center;
+}
+.ticketList .tableBox .c4{
+	width: 180px;
+	text-align: center;
+}
+.ticketList .tableBox .c5{
+	width: 150px;
+    line-height: 28px;
+    text-align: center;
+}
+/*合计*/
+.ticketList .tableBox .totalPrice{
+	float: right;
+	padding-right: 20px;
+}
+/*提交订单部分*/
+.subimtBox .content{
+	text-align: right;
+}
+.subimtBox .content h2{
+	font-size: 12px;
+	color: #444444;
+	margin-bottom: 15px;
+}
+.subimtBox .content h2 .finalPrice{
+	color: #ED0A75;
+}
+.subimtBox .content #agree{
+	margin-right: 14px;
+}
+.subimtBox .content span:nth-child(3){
+	font-size: 12px;
+	color: #666666;
+}
+.subimtBox .content span:nth-child(4){
+	font-size: 12px;
+	color: #4D98BA;
+}
+.subimtBox .content p{
+	font-size: 12px;
+	color: #666666;
+	margin: 12px 0 6px 0;
+}
+.subimtBox .content .submitBtn{
+	display: inline-block;
+	width: 260px;
+	height: 46px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 46px;
+	background: #ED0A75;
+	border-radius: 5px;
+}
+/***main主体内容***/
+
+/****footer尾部****/
+#footer{
+	background: #FCFCFC;
+}
+.footer{
+	padding: 16px 0 20px 0;
+}
+/*链接*/
+.footer .foot_link{
+	font-size: 12px;
+	line-height: 42px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.footer .foot_link a{
+	color: #666666;
+	margin: 0 10px;
+}
+.footer .foot_link a:hover{
+	color: #FF1369;
+}
+/*信息*/
+.footer .foot_msg .left a{
+	float: left;
+	margin-right: 40px
+}
+.footer .foot_msg .left .qr{
+	text-align: center;
+}
+.footer .foot_msg .left .qr img{
+	display: block;
+	margin-bottom: 5px;
+}
+.footer .foot_msg .left .qr span{
+	font-size: 12px;
+	color: #111111;
+}
+.footer .foot_msg .right{
+	margin-left: 100px;
+}
+.footer .foot_msg .right p{
+	font-size: 12px;
+}
+.footer .foot_msg .right p span{
+	color: #333333;
+	line-height: 28px;
+	padding: 0 10px;
+}
+/****footer尾部****/

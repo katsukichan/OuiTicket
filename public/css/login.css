@@ -1,0 +1,204 @@
+a{
+	font-size: 12px;
+}
+/***header头部***/
+#header{
+	background: #FFFFFF;
+	box-shadow: 0 2px 2px 2px #E1E1E1;
+	margin-bottom: 2px;
+}
+.header{
+	padding: 20px 0 5px 38px;
+}
+.header .logo{
+	display: block;
+	width: 167px;
+	height: 78px;
+	text-indent: -999em;
+	background: url(../img/logo.png) no-repeat;
+}
+.header .welcome p span{
+	font-size: 12px;
+	color: #999999;
+	margin-right: 5px;
+}
+/***header头部***/
+
+/***login登录***/
+#login{
+	background: #E5AF54;
+}
+.login .left{
+	width: 700px;
+	box-sizing: border-box;
+	padding: 15px 0 0 20px;
+}
+.login .right{
+	width: 500px;
+	box-sizing: border-box;
+	padding: 25px 0 30px 30px;
+}
+.right .login_content{
+	width: 400px;
+	height: 365px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+/*登录方式切换tab*/
+.right .login_tab span{
+	display: inline-block;
+	width: 200px;
+	height: 38px;
+	border-top: 5px solid #E7E7E7;
+	line-height: 38px;
+	text-align: center;
+	font-size: 15px;
+	color: #222222;
+	background: #E7E7E7;
+	cursor: pointer;
+}
+.right .login_tab .currentTab{
+	color: #FF1268;
+	background: #FFFFFF;
+	border-top: 5px solid #FF1268;
+}
+/**账号密码登录样式**/
+.right .login_content .login_input{
+	padding-left: 35px;
+}
+.right .login_content .login_input .error{
+	display: none;
+	font-size: 14px;
+	color: #dd2727;
+}
+/*Oui用户登录*/
+.right .login_content .login_input h2 span{
+	font-size: 12px;
+	color: #666666;
+	font-weight: 800;
+	margin-right: 200px;
+}
+.right .login_content .login_input h2 a{
+	font-size: 12px;
+	color: #0066CC;
+}
+/*用户名密码框*/
+.right .login_content .login_input #username{
+	width: 330px;
+	height: 54px;
+	box-sizing: border-box;
+	border: 1px solid #DEDEDE;
+	margin-top: 10px;
+	padding: 5px 0 0 60px;
+	background: url(../img/login_user.png) no-repeat 20px center;
+}
+.right .login_content .login_input #password{
+	width: 330px;
+	height: 54px;
+	box-sizing: border-box;
+	border: 1px solid #DEDEDE;
+	margin-top: 10px;
+	padding: 5px 0 0 60px;
+	background: url(../img/login_password.png) no-repeat 20px center;
+}
+/*自动登录 忘记密码*/
+.right .login_content .login_input h3{
+	margin: 15px 0 15px;
+}
+.right .login_content .login_input h3 input{
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+}
+.right .login_content .login_input h3 span{
+	font-size: 12px;
+	color: #999999;
+	margin-right: 200px;
+}
+.right .login_content .login_input h3 a{
+	font-size: 12px;
+	color: #999999;
+}
+/*登录按钮*/
+.right .login_content .login_input .login_btn{
+	display: block;
+	width: 330px;
+	height: 52px;
+	background-color: #cc0e53;
+	background-image: linear-gradient(90deg,#ff4aae,#ff1268);
+	border-radius: 5px;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 52px;
+	cursor: pointer;
+	margin-bottom: 18px;
+}
+/*合作账号登录*/
+.right .login_content .login_input .cooperate p{
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 10px;
+}
+.right .login_content .login_input .cooperate .cooperateImg img{
+	float: left;
+	margin-right: 20px;
+}
+/**账号密码登录样式**/
+/**二维码登录样式**/
+.right .login_content .login_qr{
+	display: none;
+	padding-top: 30px;
+	text-align: center;
+}
+.right .login_content .login_qr h2{
+	font-size: 16px;
+	color: #66667F;
+	font-weight: 800;
+	margin: 30px 0; 
+}
+.right .login_content .login_qr img{
+	width: 130px;
+	height: 130px;
+	margin-bottom: 30px;
+}
+.right .login_content .login_qr p{
+	font-size: 11px;
+	color: #666666;
+}
+/**二维码登录样式**/
+/***login登录***/
+
+/***footer尾部***/
+#footer{
+	background: #FCFCFC;
+}
+.footer{
+	padding: 16px 0 20px 0;
+	text-align: center;
+}
+.footer .link{
+	font-size: 12px;
+	line-height: 42px;
+}
+.footer .link a{
+	color: #666666;
+	margin: 0 10px;
+}
+.footer .link a:hover{
+	color: #FF1369;
+}
+.footer p span{
+	font-size: 12px;
+	color: #333333;
+	line-height: 28px;
+}
+.footer p:nth-child(2) span{
+	background: url(../img/footer_bd.png) no-repeat left center;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+.footer p:nth-child(2) span:nth-child(1){
+	background: none;
+}
+/***footer尾部**/

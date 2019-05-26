@@ -1,0 +1,366 @@
+@charset "UTF-8";
+a {
+  font-size: 12px;
+}
+
+#topBar {
+  background: #ffffff;
+}
+
+.topBar {
+  font-size: 16px;
+}
+
+.topBar .top_left .logo {
+  float: left;
+  margin-right: 55px;
+}
+
+.topBar .top_left .recommend a {
+  display: inline-block;
+  font-size: 16px;
+  width: 32px;
+  line-height: 78px;
+  color: #000000;
+  margin: 0 9px;
+}
+
+.topBar .top_left .recommend a:hover {
+  color: #ff1268;
+}
+
+.topBar .top_search {
+  margin: 15px 0 0 160px;
+}
+
+.topBar .top_search input {
+  width: 318px;
+  height: 46px;
+  box-sizing: border-box;
+  padding: 0 55px;
+  background: url(../img/topBar_search.png) no-repeat 20px center #f8f8f8;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.topBar .top_search .search_btn {
+  display: inline-block;
+  width: 83px;
+  height: 46px;
+  font-size: 16px;
+  background: #ff1268;
+  color: #fff0ff;
+  text-align: center;
+  line-height: 46px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.topBar .top_right .user {
+  position: relative;
+}
+
+.topBar .top_right .user .userName {
+  display: inline-block;
+  font-size: 16px;
+  width: 100px;
+  line-height: 78px;
+  color: #000000;
+  padding: 0 15px;
+  white-space: nowrap;
+  /*文本强制一行*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*多出内容显示省略号*/
+}
+
+.topBar .top_right .user .userName i {
+  margin-right: 5px;
+}
+
+.topBar .top_right .user .userName:hover {
+  color: #ff1268;
+}
+
+.topBar .top_right .user .userList {
+  display: none;
+  position: absolute;
+  border: 1px solid #F2F2F2;
+  background: #FFFFFF;
+  top: 66px;
+  right: -5px;
+}
+
+.topBar .top_right .user .userList li a {
+  display: block;
+  width: 135px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #f2f2f2;
+  color: #111111;
+}
+
+.topBar .top_right .user .userList li:hover {
+  background: #fff4f8;
+}
+
+.topBar .top_right .user .userList li:hover a {
+  color: #ff1268;
+}
+
+.topBar .top_right .user .userList .trianglebd {
+  width: 0;
+  height: 0;
+  border: 8px solid;
+  border-color: #fff0;
+  border-bottom-color: #f2f2f2;
+  position: absolute;
+  top: -17px;
+  right: 58px;
+}
+
+.topBar .top_right .user .userList .triangle {
+  width: 0;
+  height: 0;
+  border: 8px solid;
+  border-color: #fff0;
+  border-bottom-color: #ffffff;
+  position: absolute;
+  top: -16px;
+  right: 58px;
+}
+
+.topBar .top_right .user:hover .userList {
+  display: block;
+}
+
+.topBar .top_right .downLoad {
+  position: relative;
+}
+
+.topBar .top_right .downLoad span {
+  display: block;
+  width: 65px;
+  line-height: 78px;
+  color: #000000;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.topBar .top_right .downLoad span i {
+  margin-right: 5px;
+}
+
+.topBar .top_right .downLoad span:hover {
+  color: #ff1268;
+}
+
+.topBar .top_right .downLoad .downQr {
+  display: none;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid #676b6e;
+  position: absolute;
+  top: 62px;
+  left: 0;
+}
+
+.topBar .top_right .downLoad:hover .downQr {
+  display: block;
+}
+
+.topBar .top_right .downLoad .trianglebd {
+  width: 0;
+  height: 0;
+  border: 8px solid;
+  border-color: #fff0;
+  border-bottom-color: #676b6e;
+  position: absolute;
+  top: -17px;
+  right: 45px;
+}
+
+.topBar .top_right .downLoad .triangle {
+  width: 0;
+  height: 0;
+  border: 8px solid;
+  border-color: #fff0;
+  border-bottom-color: #ffffff;
+  position: absolute;
+  top: -16px;
+  right: 45px;
+}
+
+#mian {
+  background: #FFFFFF;
+}
+
+.main .oui_coupon_menus {
+  width: 169px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.main .oui_coupon_menus .coupon_title {
+  font-size: 22px;
+  color: #FF1268;
+  margin-top: 40px;
+}
+
+.main .oui_coupon_menus .coupon_menu_title {
+  font-size: 16px;
+  color: #000;
+  padding: 30px 0 15px;
+}
+
+.main .oui_coupon_menus .coupon_menu_item li {
+  font-size: 14px;
+  color: #333;
+  padding-top: 15px;
+}
+
+.main .oui_coupon_menus .coupon_menu_item li a {
+  color: #333;
+}
+
+.main .oui_coupon_menus .coupon_menu_item li a:hover {
+  color: #ff1268;
+}
+
+.main .oui_coupon_right {
+  width: 840px;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.main .oui_coupon_right .msg_title {
+  border: 1px solid #efefef;
+  height: 38px;
+  overflow: hidden;
+  background: #FAFAFA;
+  padding: 0 15px;
+  line-height: 38px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.main .oui_coupon_right .msg_box dl {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.main .oui_coupon_right .msg_box dl dt {
+  width: 71px;
+  float: left;
+  padding-right: 5px;
+  text-align: right;
+}
+
+.main .oui_coupon_right .msg_box dl dd .input-text {
+  width: 120px;
+  height: 14px;
+  padding: 3px;
+  line-height: 14px;
+  border: 1px solid #efefef;
+  border-top: 1px solid #d5d5d5;
+}
+
+.main .oui_coupon_right .msg_box dl dd .nickTip {
+  display: none;
+  font-size: 14px;
+  color: #666;
+}
+
+.main .oui_coupon_right .msg_box dl dd .radio {
+  padding-right: 20px;
+}
+
+.main .oui_coupon_right .msg_box dl dd span.m {
+  background: url(../img/ico-sex.gif) right 0 no-repeat;
+  padding-right: 20px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.main .oui_coupon_right .msg_box dl dd span.f {
+  background: url(../img/ico-sex.gif) right -30px no-repeat;
+  padding-right: 20px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.main .oui_coupon_right .msg_box #msg_save_btn {
+  display: block;
+  background: #E50971;
+  margin-left: 23px;
+  width: 73px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#footer {
+  background: #fcfcfc;
+}
+
+.footer {
+  padding: 16px 0 20px 0;
+}
+
+.footer .foot_link {
+  font-size: 12px;
+  line-height: 42px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer .foot_link a {
+  color: #666666;
+  margin: 0 10px;
+}
+
+.footer .foot_link a:hover {
+  color: #ff1369;
+}
+
+.footer .foot_msg .left a {
+  float: left;
+  margin-right: 40px;
+}
+
+.footer .foot_msg .left .qr {
+  text-align: center;
+}
+
+.footer .foot_msg .left .qr img {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer .foot_msg .left .qr span {
+  font-size: 12px;
+  color: #111111;
+}
+
+.footer .foot_msg .right {
+  margin-left: 100px;
+}
+
+.footer .foot_msg .right p {
+  font-size: 12px;
+}
+
+.footer .foot_msg .right p span {
+  color: #333333;
+  line-height: 28px;
+  padding: 0 10px;
+}

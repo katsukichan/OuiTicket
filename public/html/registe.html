@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/registe.css">
+	<link rel="stylesheet" type="text/css" href="../icon/iconfont.css">
+</head>
+<body>
+	<!-- header头部 -->
+	<div id="header">
+		<div class="header con clearfix">
+			<a href="../index.html" class="logo fl">Oui</a>
+			<div class="welcome fr clearfix">
+				<p class="fl">
+					<span>您好，欢迎光临Oui票务！</span><a href="login.html">直接登录</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- registe注册 -->
+	<div id="registe">
+		<div class="registe con">
+			<div class="dataFrom">
+				<div class="fromitem">
+					<label for="phone">手机号码:</label><span class="area"><span class="areaValue">中国大陆 +86</span><i class="iconfont icon-upjt"></i></span><input type="text" name="phone" id="phone" maxlength="11">
+					<div class="phoneError error"></div>
+					<ul class="areaList">
+						<li><span>中国大陆 +86</span></li>
+						<li><span>中国香港 +852</span></li>
+						<li><span>中国澳门 +853</span></li>
+						<li><span>中国台湾 +886</span></li>
+					</ul>
+				</div>
+				<div class="fromitem">
+					<label for="psw1">登录密码:</label><input type="password" name="psw1" id="psw1" placeholder="设置你的登录密码" maxlength="20">
+					<div class="psw1Error error"></div>
+					<div class="rule">
+						<div class="trianglebd"></div>
+						<div class="triangle"></div>
+						<p>6-20个字符，密码不能会注册名相同</p>
+						<p>只能包含数字、字母以及标点符号（除空格）</p>
+						<p>字母、数字和标点符号至少包含两种</p>
+					</div>
+				</div>
+				<div class="fromitem">
+					<label for="psw2">确认密码:</label><input type="password" name="psw2" id="psw2" placeholder="请再次输入你的登录密码" maxlength="20">
+					<div class="psw2Error error"></div>
+				</div>
+				<div class="fromitem">
+					<label>验证码:</label><input type="text" name="code" id="code" maxlength="4"><span class="showCode"></span>
+					<div class="codeError error"></div>
+				</div>
+				<div class="fromitem">
+					<label></label><input type="checkbox" value="false" id="agree"><p>我已阅读并同意<a href="#">《会员协议》</a>和<a href="#">《隐私条款》</a></p>
+					<div class="agreeError error"></div>
+				</div>
+				<div class="fromitem"><label></label><a href="javascript:;" class="registe_btn">注册</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- footer尾部 -->
+	<div id="footer">
+		<div class="footer con">
+			<div class="link">
+				<a href="#">公司介绍</a>|
+				<a href="#">品牌识别</a>|
+				<a href="#">企业荣誉</a>|
+				<a href="#">隐私申明</a>|
+				<a href="#">联系及合作</a>|
+				<a href="#">招聘信息</a>|
+				<a href="#">网站地图</a>|
+				<a href="#">友情链接</a>
+			</div>
+			<p><span>京ICP备2141551号</span><span>京B2-20181001</span><span>营业执照</span></p>
+			<p><span>CopyRight© Oui票务2018，All Right Reserved</span></p>
+		</div>
+	</div>
+	<script src="../lib/jquery-3.2.1.js"></script>
+	<script src="../js/registe.js"></script>
+	<script src="../js/common.js"></script>
+</body>
+</html>

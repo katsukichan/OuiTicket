@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/details.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../icon/iconfont.css">
+</head>
+<body>
+	<!-- sidebar右侧边栏 -->
+	<div class="sidebar">
+		<div class="service">
+			<i class="iconfont icon-service"></i>
+			<p>在线客服</p>
+		</div>
+		<div class="backTop">
+			<i class="iconfont icon-bacTop"></i>
+			<p>返回顶部</p>
+		</div>
+	</div>
+	<!-- topBar顶部栏 -->
+	<div id="topBar">
+		<div class="topBar con clearfix">
+			<!-- 商标首页分类 -->
+			<div class="top_left fl">
+				<a href="../index.html" class="logo">
+					<img src="../img/logo.png">
+				</a>
+				<div class="recommend fl">
+					<a href="../index.html">首页</a>
+					<a href="classify.html">分类</a>
+				</div>
+			</div>
+			<!-- 搜索框 -->
+			<div class="top_search fl">
+				<input type="text" placeholder="搜索"><span class="search_btn">搜索</span>
+			</div>
+			<!-- 用户下载 -->
+			<div class="top_right fr clearfix">
+				<div class="user fl"></div>
+				<div class="downLoad fl">
+					<span><i class="iconfont icon-phone"></i>下载</span>
+					<div class="downQr">
+						<img src="../img/qr.jpg">
+						<div class="trianglebd"></div>
+						<div class="triangle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主体内容 -->
+	<div id="main">
+		<div class="main con">
+			<!-- 演出购票信息 -->
+			<div class="msgBox">
+				<!-- 题头 -->
+				<h2 class="details_title"></h2>
+				<div class="content clearfix">
+					<!-- 宣传图 -->
+					<div class="detailsPic fl">
+						<img class="details_img">
+					</div>
+					<!-- 信息 -->
+					<div class="detailsMsg fl">
+						<!-- 题头 -->
+						<h3></h3>
+						<!-- 时间 -->
+						<h4><span>时间：</span><span></span></h4>
+						<!-- 场馆 -->
+						<h4><span>场馆：</span><span></span></h4>
+						<!-- 场次 -->
+						<div class="clearfix">
+							<h5>场次：</h5>
+							<div class="showTime fl">
+								<ul class="lst clearfix"></ul>
+							</div>
+						</div>
+						<!-- 价格 -->
+						<div class="clearfix">
+							<h5>价格：</h5>
+							<div class="showPrice fl">
+								<ul class="lst clearfix"></ul>
+							</div>
+						</div>
+						<!-- 购票车-->
+						<div class="ticketCarBox clearfix">
+							<h5>您选择了：</h5>
+							<ul class="ticketCar fl"></ul>
+						</div>
+						<!-- 购买按键 -->
+						<div class="buyBtn">
+							<!-- <a href="javascript:;" id="buySeatBtn">选座购买</a> -->
+							<a href="javascript:;" id="buyNowBtn">立即购买</a>
+						</div>
+						<!-- 距离开演72小时前显示提示 -->
+						<div class="beforeTip">演出开演前72小时不支持实票配送，您可上门自取或选购电子票（限支持电子票项目）</div>
+					</div>
+				</div>
+			</div>
+			<!-- 有关详细信息 -->
+			<div class="detailsBox">
+				<div class="nav">
+					<ul class="tab clearfix">
+						<li><span>演出信息</span></li>
+						<li><span>购买说明</span></li>
+						<li><span>付款方式</span></li>
+					</ul>
+				</div>
+				<div class="tabContent">
+					<!-- 演出信息 -->
+					<div class="details">
+						<div class="inFoBase moreMsg">
+							<dl>
+								<dt><span>基本信息</span></dt>
+								<dd>
+									<table>
+										<tbody>
+											<tr>
+												<td class="bg">演出时间</td>
+												<td>2018.10.27 19:00 - 21:40</td>
+												<td class="bg">演出场馆</td>
+												<td>上海证大喜玛拉雅艺术中心大观舞台</td>
+											</tr>
+											<tr>
+												<td class="bg">演出时长</td>
+												<td>最低演出时长 100分钟</td>
+												<td class="bg">入场时间</td>
+												<td>演出前约90分钟</td>
+											</tr>
+											<tr>
+												<td class="bg">限购</td>
+												<td>每个账号最多购买2张</td>
+												<td class="bg">儿童入场提示</td>
+												<td>儿童凭票入场</td>
+											</tr>
+											<tr>
+												<td class="bg">禁止携带物品</td>
+												<td>食品、饮料、相机、充电宝、打火机等。</td>
+												<td class="bg">付款时效提醒</td>
+												<td>购票下单成功后需在15分钟内完成支付，未支付成功的订单，将在下单15分钟后系统自动取消，所选价位将自动释放后重新点亮，大家可及时刷新购票页面进行购买。</td>
+											</tr>
+											<tr>
+												<td class="bg">实名制</td>
+												<td>购买时您需要输入购票人身份证信息，每张门票对应一个证件号</td>
+												<td class="bg">座位类型</td>
+												<td>请按门票对应位置，有序对号入座</td>
+											</tr>
+											<tr>
+												<td class="bg">物品寄存</td>
+												<td>无寄存处，请自行保管携带物品</td>
+												<td class="bg">主要演员（团体）</td>
+												<td>水树奈奈</td>
+											</tr>
+											<tr>
+												<td class="bg">Oui网首次开售时全场可售门票总张数</td>
+												<td>6666</td>
+												<td class="bg">最低演出曲目数</td>
+												<td>15</td>
+											</tr>
+											<tr>
+												<td class="bg">退换政策</td>
+												<td>票品不支持退换。如无法正常观看，还请自行处理，给您带来不便敬请谅解</td>
+												<td class="bg">票品及入场</td>
+												<td>本演出提供纸质门票，演出当天请携带收到的纸质门票，验票后入场（仅订单或订单截图无效）</td>
+											</tr>
+										</tbody>
+									</table>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span>项目介绍</span></dt>
+								<dd>
+									<h4>演出介绍</h4>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span>温馨提示</span></dt>
+								<dd>
+									<table>
+										<tbody>
+											<tr>
+												<td class="bg">发票说明</td>
+												<td>如需发票，请您在演出开始前通过订单页补开，发票将在演出结束后1个月左右，统一由主办方提供</td>
+											</tr>
+										</tbody>
+									</table>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- 购买说明 -->
+					<div class="details">
+						<div class="inFoBase tips">
+							<dl>
+								<dt><span>特别提示</span></dt>
+								<dd>
+									<h3>售前提示</h3>
+									<p>1.为避免快递配送不能及时送达，演出距开场时间少于3天时不提供【快递配送】服务，请您谅解！您可以选择电子票或在线支付后上门自取纸质票。<a href="#"> 点击查看上门取票地址>></a></p>
+								</dd>
+								<dd>
+									<p>2.凡演出票类商品，开票时间一般为演出前二到四周，正式开票后会第一时间短信通知您，请注意接收。</p>
+								</dd>
+								<dd>
+									<p>3.如您不是通过“选座购买”通道进行的票品购买，最终票品数量视项目主办方及场馆情况而定，正式开票后Oui网将根据用户付款先后顺序依次配票，可能存在票品不足不能为您配票的风险，如最终未能配票，Oui网承诺全额退款，但不承担其他损失。</p>
+								</dd>
+								<dd>
+									<h3>支付方式</h3>
+									<p>网上银行（招商银行等） 支付平台（支付宝等） 转账汇款(招商银行等)<a href="#">查看详情>></a></p>
+								</dd>
+								<dd>
+									<h3>退/换货说明</h3>
+									<p>针对不可抗力和非不可抗力的退/换票情况和处理，请点击查阅<a href="#">Oui网退换货说明>></a></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span>无线端购票</span></dt>
+								<dd>
+									<p>1. 使用智能设备用户在各应用商店中搜索"大麦"下载安装客户端，购票体验更流畅</p>
+								</dd>
+								<dd>
+									<p>2. 非智能设备用户可浏览器访问t.oui.cn进行演出查询，随时购票</p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span>网上订购</span></dt>
+								<dd>
+									<img src="../img/process.jpg">
+								</dd>
+							</dl>
+							<dl>
+								<dt><span>上门订购</span></dt>
+								<dd>
+									<p>Oui网北京总部</p>
+								</dd>
+								<dd>
+									<p>办公地址：北京市丰台区Oui街666号楼3层<a href="#">点击查看如何到达</a></p>
+								</dd>
+								<dd>
+									<p>营业时间：星期一至星期日9:00-18:00</p>
+								</dd>
+								<dd>
+									<p>支付说明：可用POS机刷卡、现金、预存；支票支付（需要支付等同现金，支票入账后返还）；上门购票也可使用：福利卡（福卡）收取3%手续费。特殊项目除外，具体以上门购票为准！ <a href="#">点击查看周边提款</a></p>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- 付款方式 -->
+					<div class="details">
+						<div class="inFoBase payMode">
+							<dl>
+								<dt><span>付款方式</span></dt>
+								<dd>
+									<p>支持多家网上银行、支付平台（支付宝、快钱、银联、微信支付等）在线支付，<a href="#">查看详情>></a></p>
+								</dd>
+								<dd>
+									<h3>支付平台：</h3>
+									<ul class="clearfix">
+										<li><img src="../img/zfb.jpg"></li>
+										<li><img src="../img/wx.jpg"></li>
+									</ul>
+								</dd>
+								<dd>
+									<h3>网上银行：</h3>
+									<ul class="clearfix">
+										<li><img src="../img/pay_zgb.jpg"></li>
+										<li><img src="../img/pay_gfb.jpg"></li>
+										<li><img src="../img/pay_gsb.jpg"></li>
+										<li><img src="../img/pay_jsb.jpg"></li>
+										<li><img src="../img/pay_jtb.jpg"></li>
+										<li><img src="../img/pay_nyb.jpg"></li>
+										<li><img src="../img/pay_pfb.jpg"></li>
+										<li><img src="../img/pay_zsb.jpg"></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span>柜台付款</span></dt>
+								<dd>
+									<p>您也可以选择就近的公司网点，到柜台直接付款购买，<a href="#">查看分公司上门地址>></a></p>
+								</dd>
+							</dl>
+							<dl>
+								<dt><span>电子钱包</span></dt>
+								<dd>
+									<p>电子钱包是由Oui网自主研发的第三方支付平台，为每一个用户在购票过程中提供"简单、安全、快速"的在线支付解决方案；<a href="#">查看详情>></a></p>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer尾部 -->
+	<div id="footer">
+		<div class="footer con">
+			<div class="foot_link">
+				<a href="#">帮助中心</a>|
+				<a href="#">公司介绍</a>|
+				<a href="#">品牌识别</a>|
+				<a href="#">隐私权专项政策</a>|
+				<a href="#">廉政举报</a>|
+				<a href="#">联系及合作</a>|
+				<a href="#">招聘信息</a>|
+				<a href="#">防骗秘籍</a>
+			</div>
+			<div class="foot_msg clearfix">
+				<div class="left fl clearfix">
+					<a href="../index.html" target="blank">
+						<img src="../img/logo.png">
+					</a>
+					<div class="qr fl">
+						<img src="../img/qr.jpg">
+						<span>APP下载</span>
+					</div>
+				</div>
+				<div class="right fl">
+					<p><span>京ICP备2141551号</span>|<span>京B2-20181001</span>|<span>营业执照</span></p>
+					<p><span>广播电视节目制作经营许可证 (京)字第23333号</span>|<span>网络文化经营许可证 京网文[2018]3333-999号</span>|<span>营业性演出许可证 京市演666号</span></p>
+					<p><span>CopyRight© Oui票务2018，All Right Reserved</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../lib/jquery-3.2.1.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/details.js"></script>
+	<script src="../js/backTop.js"></script>
+</body>
+</html>

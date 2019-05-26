@@ -1,0 +1,554 @@
+a{
+	font-size: 12px;
+}
+/****sidebar右侧边栏****/
+.sidebar{
+	width: 80px;
+	border: 1px solid #EBEBEB;
+	position: fixed;
+	top: 50%;
+	right: 10px;
+	margin-top: 50px;
+	text-align: center;
+	background: #FFFFFF;
+	z-index: 9999;
+	font-size: 11px; 
+	cursor: pointer;
+}
+.sidebar div{
+	padding: 10px 0;
+	border-bottom: 1px solid #EBEBEB; 
+}
+.sidebar .backTop{
+	display: none;
+	border-bottom: none; 
+}
+.sidebar .service i{
+	font-size: 25px;
+}
+.sidebar .service:hover p{
+	color: #FF1268;
+}
+.sidebar .backTop i{
+	font-size: 25px;
+}
+.sidebar .backTop:hover p{
+	color: #FF1268;
+}
+/****sidebar右侧边栏****/
+
+/***topBar顶部栏***/
+#topBar{
+	background: #FFFFFF;
+}
+.topBar{
+	font-size: 16px;
+}
+/*顶部栏左侧*/
+.topBar .top_left .logo{
+	float: left;
+	margin-right: 55px;
+}
+.topBar .top_left .recommend a{
+	display: inline-block;
+	font-size: 16px;
+	width: 32px;
+	line-height: 78px;
+	color: #000000;
+	margin: 0 9px;
+}
+.topBar .top_left .recommend a:hover{
+	color: #FF1268;
+}
+/*顶部栏搜索*/
+.topBar .top_search{
+	margin: 15px 0 0 160px;
+}
+.topBar .top_search input{
+	width: 318px;
+	height: 46px;
+	box-sizing: border-box;
+	padding: 0 55px;
+	background: url(../img/topBar_search.png) no-repeat 20px center #F8F8F8;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;   
+}
+.topBar .top_search .search_btn{
+	display: inline-block;
+	width: 83px;
+	height: 46px;
+	font-size: 16px;
+	background: #FF1268;
+	color: #FFF0FF;
+	text-align: center;
+	line-height: 46px;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	cursor: pointer;
+	vertical-align: top;
+}
+/*顶部栏右侧*/
+/*用户*/
+.topBar .top_right .user{
+	position: relative;
+}
+.topBar .top_right .user .userName{
+	display: inline-block;
+	font-size: 16px;
+	width: 100px;
+	line-height: 78px;
+	color: #000000;
+	padding: 0 15px;
+	white-space: nowrap;/*文本强制一行*/
+	overflow: hidden;
+	text-overflow: ellipsis;/*多出内容显示省略号*/
+}
+.topBar .top_right .user .userName i{
+	margin-right: 5px;
+}
+.topBar .top_right .user .userList{
+	display: none;
+	position: absolute;
+	border: 1px solid #F2F2F2;
+	background: #FFFFFF;
+	top: 66px;
+	right: -5px;
+}
+.topBar .top_right .user .userList li a{
+	display: block;
+	width: 135px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #F2F2F2;
+	color: #111111;
+}
+/*用户列表顶部三角*/
+.topBar .top_right .user .userList .trianglebd{
+	width: 0;
+	height: 0;
+	border: 8px solid;
+	border-color: #fff0;
+	border-bottom-color: #F2F2F2;
+	position: absolute;
+	top: -17px;
+	right: 58px;
+}
+.topBar .top_right .user .userList .triangle{
+	width: 0;
+	height: 0;
+	border: 8px solid;
+	border-color: #fff0;
+	border-bottom-color: #FFFFFF;
+	position: absolute;
+	top: -16px;
+	right: 58px;
+}
+.topBar .top_right .user:hover .userList{
+	display: block;
+}
+.topBar .top_right .user .userName:hover{
+	color: #FF1268;
+}
+.topBar .top_right .user .userList li:hover{
+	background: #FFF4F8;
+}
+.topBar .top_right .user .userList li:hover a{
+	color: #FF1268;
+}
+/*下载*/
+.topBar .top_right .downLoad{
+	position: relative;
+}
+.topBar .top_right .downLoad span{
+	display: block;
+	width: 65px;
+	line-height: 78px;
+	color: #000000;
+	padding: 0 15px;
+	cursor: pointer;
+}
+.topBar .top_right .downLoad span i{
+	margin-right: 5px;
+}
+.topBar .top_right .downLoad span:hover{
+	color: #FF1268;
+}
+.topBar .top_right .downLoad .downQr{
+	display: none;
+	padding: 8px;
+	background: #FFFFFF;
+	border: 1px solid #676B6E;
+	position: absolute;
+	top: 62px;
+	left: 0;
+}
+.topBar .top_right .downLoad:hover .downQr{
+	display: block;
+}
+/*二维码顶部三角*/
+.topBar .top_right .downLoad .trianglebd{
+	width: 0;
+	height: 0;
+	border: 8px solid;
+	border-color: #fff0;
+	border-bottom-color: #676B6E;
+	position: absolute;
+	top: -17px;
+	right: 45px;
+}
+.topBar .top_right .downLoad .triangle{
+	width: 0;
+	height: 0;
+	border: 8px solid;
+	border-color: #fff0;
+	border-bottom-color: #FFFFFF;
+	position: absolute;
+	top: -16px;
+	right: 45px;
+}
+/***topBar顶部栏***/
+
+/***main主体内容***/
+#mian{
+	background: #FDF7F5;
+}
+.main{
+	padding-top: 30px;
+}
+/*演出购票信息*/
+.msgBox{
+	border: 1px solid #EAECEB;
+	margin-bottom: 20px;
+}
+.msgBox h2{
+	font-size: 12px;
+	color: #666666;
+	font-weight: 700;
+	line-height: 52px;
+	padding-left: 20px;
+	background: #F6F6F6;
+	border-bottom: 1px solid #EAECEB;
+}
+.msgBox .detailsPic{
+	width: 276px;
+	padding: 30px 20px 30px 30px;
+}
+.msgBox .detailsPic img{
+	width: 100%;
+	height: 100%;
+}
+.msgBox .detailsMsg{
+	width: 872px;
+	padding-top: 30px;
+}
+.msgBox .detailsMsg h3{
+	font-size: 18px;
+	color: #000000;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.msgBox .detailsMsg h4{
+	margin-bottom: 15px;	
+}
+.msgBox .detailsMsg h4 span{
+	font-size: 15px;
+	color: #222222;	
+}
+.msgBox .detailsMsg h4 span:nth-child(1){
+	color: #99A2AA;
+	margin-right: 20px;	
+}
+.msgBox .detailsMsg div{
+	margin-bottom: 15px;
+}
+.msgBox .detailsMsg div h5{
+	font-size: 15px;
+	color: #99A2AA;
+	margin-right: 10px;
+	float: left;
+}
+.msgBox .detailsMsg .lst{
+	width: 816px;
+}
+.msgBox .detailsMsg .lst li{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.msgBox .detailsMsg .lst li a{
+	display: block;
+	min-width: 122px;
+	color: #333333;
+	text-align: center;
+	line-height: 24px;
+	padding: 4px;
+	border: 1px solid #EAECEB;
+}
+.msgBox .detailsMsg .lst li a:hover{
+	color: #ED0A75;
+}
+.msgBox .detailsMsg .lst li .active{
+	border-color: #ED0A75;
+	background: url(../img/choose_sel.png) no-repeat right bottom;
+}
+/***购票车***/
+.msgBox .detailsMsg .ticketCarBox{
+	display: none;
+}
+.msgBox .detailsMsg .ticketCar li{
+	margin-bottom: 15px;
+    border: 1px solid #EAECEB;
+    position: relative;
+}
+.msgBox .detailsMsg .ticketCar li span{
+	float: left;
+	padding: 8px 10px;
+	line-height: 24px;
+	color: #333333;
+	font-size: 14px;
+}
+.msgBox .detailsMsg .ticketCar .dateTime{
+	width: 174px;
+	/*三行文本超出隐藏，需要有中文字符有效*/
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:3;
+}
+.msgBox .detailsMsg .ticketCar .price{
+	width: 96px;
+	overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.msgBox .detailsMsg .ticketCar .nums{
+	height: 28px;
+	margin: 5px 10px 0 60px;
+	border: 1px solid #EAECEB;
+	padding: 0;
+}
+.msgBox .detailsMsg .ticketCar .nums a{
+	float: left;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+}
+.msgBox .detailsMsg .ticketCar .nums .minusBtn{
+	background: url(../img/car_minus.png) no-repeat 8px center #FAFAFA; 
+}
+.msgBox .detailsMsg .ticketCar .nums .plusBtn{
+	background: url(../img/car_plus.png) no-repeat 8px center #FAFAFA;
+}
+.msgBox .detailsMsg .ticketCar .nums .inputNum{
+	float: left;
+	width: 34px;
+	height: 28px;
+	line-height: 28px;
+    border: 1px solid #EAECEB;
+    border-top: none;
+    border-bottom: none;
+    color: #333;
+    text-align: center;
+    vertical-align: top;
+}
+.msgBox .detailsMsg .ticketCar .deleteBtn{
+	position: absolute;
+	top: 12px;
+	right: -75px;
+	display: block;
+	width: 60px;
+	line-height: 16px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	color: #333333;
+	background: url(../img/car_delete.png) no-repeat left center;
+}
+.msgBox .detailsMsg .ticketCar .deleteBtn:hover{
+	color: #ED0A75;
+}
+/***购票车***/
+.msgBox .detailsMsg .buyBtn a{
+	display: inline-block;
+	width: 186px;
+	margin-right: 15px;
+	font-size: 16px;
+	line-height: 42px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #ED0A75;
+}
+.msgBox .detailsMsg .beforeTip{
+	font-size: 12px;
+	color: #ED0A75;
+}
+/*有关详细信息*/
+.detailsBox{
+	border: 1px solid #E5E5E5;
+}
+.detailsBox .nav{
+	background: #F6F6F6;
+	border-bottom: 1px solid #E5E5E5;
+	height: 44px;
+	position: relative;
+}
+.detailsBox .nav .tab{
+	position: absolute;
+}
+.detailsBox .nav .tab li{
+	float: left;
+}
+.detailsBox .nav .tab li span{
+	display: block;
+	padding: 0 34px;
+	line-height: 44px;
+	border-left: 1px solid #E5E5E5;
+	font-size: 12px;
+	color: #000000;
+	cursor: pointer;
+}
+.detailsBox .nav .tab li:nth-child(1) span{
+	border-left: none;
+}
+.detailsBox .nav .tab li .active{
+	background: #FFFFFF;
+	color: #ED0A75;
+	border-top: 2px solid #ED0A75;
+}
+.detailsBox .details{
+	display: none;
+	padding: 40px;
+}
+.detailsBox .details .inFoBase{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.detailsBox .details dl{
+	padding-bottom: 20px;
+}
+.detailsBox .details dl dt{
+	border-left: 2px solid #ED0A75;
+}
+.detailsBox .details dl dt{
+	padding: 2px 0;
+}
+.detailsBox .details dl dt span{
+	font-size: 18px;
+	padding: 0 10px;
+}
+.detailsBox .details dl dd h3{
+	color: #ED0A75;
+}
+.detailsBox .details dl dd a{
+	color: #2F97B4;
+}
+.detailsBox .details dl dd a:hover{
+	color: #ED0A75;
+}
+.detailsBox .show{
+	display: block;
+}
+/*演出信息*/
+.details .moreMsg dd{
+	padding: 10px 110px 0 90px;
+}
+.details .moreMsg h4{
+	font-size: 16px;
+	height: 36px;
+	line-height: 36px;
+	color: #333333;
+	background: #EEEEEE;
+	padding: 0 6px;
+	margin: 25px 0;
+	font-weight: 800;
+}
+.details .moreMsg table{
+	width: 100%;
+	border-collapse: collapse;
+    border-spacing: 0;
+    border-top: 2px solid #888888;
+}
+.details .moreMsg table .bg{
+	font-weight: bold;
+    vertical-align: top;
+    background-color: #F6F6F6;
+    border-right: 1px solid #E5E5E5;
+}
+.details .moreMsg table td{
+	line-height: 24px;
+    font-size: 14px;
+    color: #666666;
+    padding: 8px 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+/*购买说明*/
+.details .tips dd{
+	padding: 5px 0 0 12px;
+}
+/*付款方式*/
+.details .payMode dd{
+	padding: 5px 0 20px 12px;
+}
+.details .payMode ul li{
+	float: left;
+	width: 107px;
+	height: 25px;
+	overflow: hidden;
+}
+.details .payMode ul li img{
+	width: 107px;
+	height: 25px;
+	overflow: hidden;
+}
+/***main主体内容***/
+
+/****footer尾部****/
+#footer{
+	background: #FCFCFC;
+}
+.footer{
+	padding: 16px 0 20px 0;
+}
+/*链接*/
+.footer .foot_link{
+	font-size: 12px;
+	line-height: 42px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.footer .foot_link a{
+	color: #666666;
+	margin: 0 10px;
+}
+.footer .foot_link a:hover{
+	color: #FF1369;
+}
+/*信息*/
+.footer .foot_msg .left a{
+	float: left;
+	margin-right: 40px
+}
+.footer .foot_msg .left .qr{
+	text-align: center;
+}
+.footer .foot_msg .left .qr img{
+	display: block;
+	margin-bottom: 5px;
+}
+.footer .foot_msg .left .qr span{
+	font-size: 12px;
+	color: #111111;
+}
+.footer .foot_msg .right{
+	margin-left: 100px;
+}
+.footer .foot_msg .right p{
+	font-size: 12px;
+}
+.footer .foot_msg .right p span{
+	color: #333333;
+	line-height: 28px;
+	padding: 0 10px;
+}
+/****footer尾部****/

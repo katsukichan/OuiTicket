@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/account.css">
+    <link rel="stylesheet" type="text/css" href="../icon/iconfont.css">
+</head>
+<body>
+    <!-- topBar顶部栏 -->
+    <div id="topBar">
+        <div class="topBar con clearfix">
+            <!-- 商标首页分类 -->
+            <div class="top_left fl">
+                <a href="../index.html" class="logo">
+                    <img src="../img/logo.png">
+                </a>
+                <div class="recommend fl">
+                    <a href="../index.html">首页</a>
+                    <a href="classify.html">分类</a>
+                </div>
+            </div>
+            <!-- 搜索框 -->
+            <div class="top_search fl">
+                <input type="text" placeholder="搜索"><span class="search_btn">搜索</span>
+            </div>
+            <!-- 用户下载 -->
+            <div class="top_right fr clearfix">
+                <div class="user fl"></div>
+                <div class="downLoad fl">
+                    <span><i class="iconfont icon-phone"></i>下载</span>
+                    <div class="downQr">
+                        <img src="../img/qr.jpg">
+                        <div class="trianglebd"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main账号信息管理 -->
+    <div id="mian">
+        <div class="main con clearfix">
+            <div class="oui_coupon_menus">
+                <div class="coupon_title">我的Oui</div>
+                <div class="coupon_menu">  
+                    <h2 class="coupon_menu_title">用户中心</h2>
+                    <ul class="coupon_menu_item">
+                        <li><a href="orderlist.html">订单管理</a></li>
+                    </ul>
+                    <h2 class="coupon_menu_title">账户中心</h2>
+                    <ul class="coupon_menu_item">
+                        <li><a href="address.html">收货地址</a></li>
+                        <li><a href="account.html">账号设置</a></li>                  
+                        <li><a href="personal.html">个人信息</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="oui_coupon_right">
+                <div class="msg_title">
+                    <span>账号设置</span>
+                </div>
+                <div class="msg_box">
+                    <dl class="clearfix">
+                        <dt><span style="padding-right:3px;color:red;">*</span>原密码：</dt>
+                        <dd>
+                            <input type="password" class="psw1 input-text" maxlength="20" value="">
+                        </dd>
+                    </dl>
+                    <dl class="new_password clearfix">
+                        <dt><span style="padding-right:3px;color:red;">*</span>新密码：</dt>
+                        <dd>
+                            <input type="password" class="psw2 input-text" maxlength="20" value="">
+                        </dd>
+                        <div class="password_rule">
+                            <div class="trianglebd"></div>
+                            <div class="triangle"></div>
+                            <p>6-20个字符，密码不能会注册名相同</p>
+                            <p>只能包含数字、字母以及标点符号（除空格）</p>
+                            <p>字母、数字和标点符号至少包含两种</p>
+                        </div>
+                    </dl>
+                    <a href="javascript:;" id="password_save_btn">确认</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer尾部 -->
+    <div id="footer">
+        <div class="footer con">
+            <div class="foot_link">
+                <a href="#">帮助中心</a>|
+                <a href="#">公司介绍</a>|
+                <a href="#">品牌识别</a>|
+                <a href="#">隐私权专项政策</a>|
+                <a href="#">廉政举报</a>|
+                <a href="#">联系及合作</a>|
+                <a href="#">招聘信息</a>|
+                <a href="#">防骗秘籍</a>
+            </div>
+            <div class="foot_msg clearfix">
+                <div class="left fl clearfix">
+                    <a href="../index.html" target="blank">
+                        <img src="../img/logo.png">
+                    </a>
+                    <div class="qr fl">
+                        <img src="../img/qr.jpg">
+                        <span>APP下载</span>
+                    </div>
+                </div>
+                <div class="right fl">
+                    <p><span>京ICP备2141551号</span>|<span>京B2-20181001</span>|<span>营业执照</span></p>
+                    <p><span>广播电视节目制作经营许可证 (京)字第23333号</span>|<span>网络文化经营许可证 京网文[2018]3333-999号</span>|<span>营业性演出许可证
+                            京市演666号</span></p>
+                    <p><span>CopyRight© Oui票务2018，All Right Reserved</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/account.js"></script>
+</body>
+</html>

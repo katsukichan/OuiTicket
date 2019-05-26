@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/classify.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../icon/iconfont.css">
+</head>
+<body>
+	<!-- sidebar右侧边栏 -->
+	<div class="sidebar">
+		<div class="service">
+			<i class="iconfont icon-service"></i>
+			<p>在线客服</p>
+		</div>
+		<div class="backTop">
+			<i class="iconfont icon-bacTop"></i>
+			<p>返回顶部</p>
+		</div>
+	</div>
+	<!-- topBar顶部栏 -->
+	<div id="topBar">
+		<div class="topBar con clearfix">
+			<!-- 商标首页分类 -->
+			<div class="top_left fl">
+				<a href="../index.html" class="logo">
+					<img src="../img/logo.png">
+				</a>
+				<div class="recommend fl">
+					<a href="../index.html">首页</a>
+					<a href="classify.html">分类</a>
+				</div>
+			</div>
+			<!-- 搜索框 -->
+			<div class="top_search fl">
+				<input type="text" placeholder="搜索"><span class="search_btn">搜索</span>
+			</div>
+			<!-- 用户下载 -->
+			<div class="top_right fr clearfix">
+				<div class="user fl"></div>
+				<div class="downLoad fl">
+					<span><i class="iconfont icon-phone"></i>下载</span>
+					<div class="downQr">
+						<img src="../img/qr.jpg">
+						<div class="trianglebd"></div>
+						<div class="triangle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- classify_content主体内容 -->
+	<div id="classify_content">
+		<div class="classify_content con">
+			<!-- 商品数量 -->
+			<h1 class="numHead">
+				共<span class="total_itemNum"></span>个商品
+			</h1>
+			<!-- 主内容框 -->
+			<div class="contentBox clearfix">
+				<!-- 左侧 -->
+				<div class="contentBox_left fl">
+					<!-- 条件筛选 -->
+					<div class="searchBox">
+						<!-- 地点筛选 -->
+						<div class="cityBox">
+							<dl class="cityBox_line clearfix">
+								<!-- 点击更改search_city_all -->
+								<!-- 展开前固定高度62px，并超出隐藏，展开后高度改为auto -->
+								<span class="cityMore">更多</span>
+								<span class="cityBack">收起</span>
+								<dt>城市:</dt>
+								<dd><a href="javascript:;" class="cityAll">全部</a></dd>
+								<dd class="search_city_num">
+									<ul class="search_city_all clearfix">
+										<!-- js生成 -->
+									</ul>
+								</dd>
+							</dl>
+						</div>
+						<!-- 分类筛选 -->
+						<div class="categoryBox">
+							<dl class="categoryBox_line clearfix">
+								<dt>分类:</dt>
+								<dd><a href="javascript:;" class="categoryAll">全部</a></dd>
+								<dd class="search_category_num">
+									<ul class="search_category_all clearfix">
+										<!-- js生成 -->
+									</ul>
+								</dd>
+							</dl>
+						</div>
+						<!-- 时间筛选 -->
+						<div class="timeBox">
+							<dl class="timeBox_line clearfix">
+								<dt>时间:</dt>
+								<dd><a href="javascript:;" class="timeAll">全部</a></dd>
+								<dd class="search_time_num">
+									<ul class="search_time_all clearfix">
+										<li><a href="javascript:;">今天</a></li>
+										<li><a href="javascript:;">明天</a></li>
+										<li><a href="javascript:;">本周末</a></li>
+										<li><a href="javascript:;">一个月内</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<!-- 筛选展示内容 -->
+					<div class="searchMain">
+						<div class="search_sort clearfix">
+							<!-- 排序选择 -->
+							<ul class="search_sort_way fl clearfix">
+								<!-- 按照商品序号排序 -->
+								<li><span class="sort_rm sortactive">推荐排序</span></li>
+								<li><span class="sort_time">最近开场</span></li>
+							</ul>
+							<div class="clearfix fr">
+								<!-- 结构选择 -->
+								<div class="search_page fl">
+									<!-- 列表结构与块结构 -->
+									<span class="list_mode"></span><span class="dic_mode"></span>
+								</div>
+								<!-- 页码跳转 -->
+								<div class="search_top_page fl clearfix"></div>
+							</div>
+						</div>
+						<!-- 筛选展示内容结构 -->
+						<ul class="search_list"></ul>
+					</div>
+				</div>
+				<!-- 右侧 -->
+				<div class="contentBox_right fr">
+					<!-- 猜你喜欢 -->
+					<div class="like">
+						<h2>您可能还喜欢</h2>
+						<!-- 猜你喜欢内容 -->
+						<div class="likeItemBox"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer尾部 -->
+	<div id="footer">
+		<div class="footer con">
+			<div class="foot_link">
+				<a href="#">帮助中心</a>|
+				<a href="#">公司介绍</a>|
+				<a href="#">品牌识别</a>|
+				<a href="#">隐私权专项政策</a>|
+				<a href="#">廉政举报</a>|
+				<a href="#">联系及合作</a>|
+				<a href="#">招聘信息</a>|
+				<a href="#">防骗秘籍</a>
+			</div>
+			<div class="foot_msg clearfix">
+				<div class="left fl clearfix">
+					<a href="../index.html" target="blank">
+						<img src="../img/logo.png">
+					</a>
+					<div class="qr fl">
+						<img src="../img/qr.jpg">
+						<span>APP下载</span>
+					</div>
+				</div>
+				<div class="right fl">
+					<p><span>京ICP备2141551号</span>|<span>京B2-20181001</span>|<span>营业执照</span></p>
+					<p><span>广播电视节目制作经营许可证 (京)字第23333号</span>|<span>网络文化经营许可证 京网文[2018]3333-999号</span>|<span>营业性演出许可证 京市演666号</span></p>
+					<p><span>CopyRight© Oui票务2018，All Right Reserved</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../lib/jquery-3.2.1.js"></script>
+	<script src="../js/classify.js"></script>
+	<script src="../js/classify_data.js"></script>
+	<script src="../js/backTop.js"></script>
+</body>
+</html>
